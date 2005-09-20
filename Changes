@@ -1,0 +1,6 @@
+Revision history for Perl extension IO::Infiles.
+
+0.01  Mon Sep 19 14:27:06 2005
+	- original version; created by h2xs 1.23 with options
+		-A -X -n IO::Infiles
+
