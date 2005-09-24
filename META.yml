@@ -1,10 +1,17 @@
-# http://module-build.sourceforge.net/META-spec.html
-#XXXXXXX This is a prototype!!!  It will change in the future!!! XXXXX#
-name:         IO-Infiles
-version:      0.01
-version_from: lib/IO/Infiles.pm
-installdirs:  site
+--- #YAML:1.0
+name: IO-Infiles
+version: 0.02
+author:
+  - Ioannis Tambouras <ioannis@yahoo.com>
+abstract: Multiple handlers for multiple __END__-like tokens
+license: perl
 requires:
-
-distribution_type: module
-generated_by: ExtUtils::MakeMaker version 6.17
+  perl: 5.6
+recommends:
+  Test::Pod: 0
+  Test::Pod::Coverage: 0
+provides:
+  IO::Infiles:
+    file: lib/IO/Infiles.pm
+    version: 0.02
+generated_by: Module::Build version 0.2611

@@ -5,8 +5,7 @@ use strict;
 use warnings;
 use Fatal qw(open);
 
-
-our $VERSION = '0.01';
+our $VERSION = '0.02';
 
 
 
@@ -31,7 +30,7 @@ __END__
 
 =head1 NAME
 
-IO::Infiles - Multiple opened handlers for __END__-like tokens.
+IO::Infiles - Multiple handlers for multiple __END__-like tokens
 
 =head1 SYNOPSIS
 
@@ -62,7 +61,7 @@ One read-only IO handler is exported for each token name.
 
 The first token should be the __END__ token. If instead you use __DATA__ 
 as the name for the first token, you will receive the warning "Attempt to free 
-unreferenced scalar: SV 0x82ebdf0 during global destruction.". Rename 
+unreferenced scalar: SV 0x82ebdf0 during global destruction."  Rename 
 your first token to __END__  if you want to silence this warning.
 
 
@@ -79,4 +78,12 @@ it under the same terms as Perl itself, either Perl version 5.8.4 or,
 at your option, any later version of Perl 5 you may have available.
 
 
+=for nothing
+
+This 'for nothing' section was written to silence test::pod::coverage
+
+=head2  inlinefiles() 
+An internal subroutine, the user should hold no interest.
+=head2  open()
 =cut
+

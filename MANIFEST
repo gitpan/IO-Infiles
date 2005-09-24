@@ -1,3 +1,4 @@
+Build.PL
 Changes
 lib/IO/Infiles.pm
 Makefile.PL
@@ -7,5 +8,7 @@ README
 t/01_main.t
 t/02_reading.t
 t/03_reading.t
+t/distribution.t
 t/IO-Infiles.t
+t/pod-coverage.t
 t/pod.t
