@@ -3,12 +3,12 @@ Changes
 lib/IO/Infiles.pm
 Makefile.PL
 MANIFEST			This list of files
-META.yml
 README
 t/01_main.t
 t/02_reading.t
 t/03_reading.t
-t/distribution.t
+t/distribution
 t/IO-Infiles.t
 t/pod-coverage.t
 t/pod.t
+META.yml

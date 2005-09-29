@@ -1,5 +1,8 @@
 Revision history for Perl extension IO::Infiles.
 
+0.03  Thu Sep 29 00:55:35 2005
+        - Disabled the t/distribution.t test 
+
 0.02  Fri Sep 23 09:58:10 2005
         - Packaging changes to keep CPANTS happy.
         - Also builds with Module::Build.
