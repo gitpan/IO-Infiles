@@ -1,6 +1,7 @@
 use ExtUtils::MakeMaker;
 WriteMakefile
 (
+          'LICENSE'       => 'perl',
           'INSTALLDIRS'   => 'site',
           'NAME'          => 'IO::Infiles',
           'VERSION_FROM'  => 'lib/IO/Infiles.pm',

@@ -1,5 +1,8 @@
 Revision history for Perl extension IO::Infiles.
 
+0.04  Wed Jul 23 21:48:23 2008
+        - Fixed license entry (to perl)
+
 0.03  Thu Sep 29 00:55:35 2005
         - Disabled the t/distribution.t test 
 

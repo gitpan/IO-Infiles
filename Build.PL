@@ -2,7 +2,7 @@ use Module::Build;
 my $b= Module::Build->new(
 	module_name        => 'IO::Infiles',
 	dist_author        => 'Ioannis Tambouras <ioannis@yahoo.com>',
-	requires           => { perl => '5.6'},
+	requires           => { perl => '5.006'},
 	recommends         => { 'Test::Pod'           => '1.20',
                                 'Test::Pod::Coverage' => '1.06',
                                 'Test::Distribution'  => '1.22',

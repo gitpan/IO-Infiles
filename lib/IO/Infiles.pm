@@ -5,7 +5,7 @@ use strict;
 use warnings;
 use Fatal qw(open);
 
-our $VERSION = '0.03';
+our $VERSION = '0.04';
 
 
 
