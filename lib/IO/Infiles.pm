@@ -1,11 +1,11 @@
 package IO::Infiles;
 
-use 5.008004;
+use 5.008000;
 use strict;
 use warnings;
 use Fatal qw(open);
 
-our $VERSION = '0.04';
+our $VERSION = '0.05';
 
 
 
