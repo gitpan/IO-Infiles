@@ -1,4 +1,4 @@
-use 5.008008;
+use v5.10;
 use inc::Module::Install;
 name           'IO-Infiles'              ;
 license        'perl'                    ;
@@ -8,7 +8,6 @@ no_index       directory  => 'examples'  ;
 author         'Ioannis Tambouras <ioannis@cpan.org>';
 
 requires
-#     'Getopt::Compact'     => '0.04',
 #	     'List::MoreUtils'     => '0.32',
 #         'namespace::autoclean'=> '0.12',
 #	     'List::Util'          => '1.23',
@@ -24,6 +23,7 @@ test_requires
               'Test::MinimumVersion'=> '0.101080',
               'Test::Strict'        => '0.14', 
               'Test::Spelling'      => '0.15',
+              'Test::Legal   '      => '0.10',
 ;
 auto_install;
 WriteAll;

@@ -4,10 +4,32 @@ IO-Infiles version 0.02
 This module adds more token sections at the end of your code. The
 first token must be named __END__ ; as before, its data are available
 through the END handler. If there are more token sections with other names,
-handlers of the same name will all be pre-opened.
+handlers of the same name are pre-opened.
+
+
+EXAMPLE:
+---------
+use IO::Infiles;
+
+
+say <FOO>;
+say <END>;
+say <SUN2>;
+
+
+__END__ 
+this is it!
+__FOO__ 
+apple orange
+__SUN1__
+__SUN2__
+Florida
+Oregon
+Nevada
 
 
 INSTALLATION
+------------
 
 To install this module type the following:
 

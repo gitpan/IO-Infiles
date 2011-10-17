@@ -4,6 +4,7 @@ MAKEFILE$
 ^Build$
 ^_build
 Makefile$
+META.yml$
 TODO
 inc/*
 t/save/*

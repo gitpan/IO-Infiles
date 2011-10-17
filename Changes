@@ -1,5 +1,9 @@
 Revision history for Perl extension IO::Infiles.
 
+0.06  Mon Oct 16 08:21:33 2011
+	   - added more tests
+       - created examples/
+
 0.05  Sat Aug 28 08:15:21 2011
        - Regular upkeep: changed installer, changed and added tests
 
